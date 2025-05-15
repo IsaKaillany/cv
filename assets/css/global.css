@@ -1,0 +1,68 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Tema dark */
+body.dark-mode {
+    background-color: #1a1a1a !important;
+    color: #f0f0f0 !important;
+}
+
+.dark-mode .w3-white {
+    background-color: #2b2b2b !important;
+    color: #f0f0f0 !important;
+}
+
+.dark-mode .w3-light-grey {
+    background-color: #1a1a1a !important;
+    color: #f0f0f0 !important;
+}
+
+.dark-mode .w3-card,
+.dark-mode .w3-card-4 {
+    background-color: #2b2b2b !important;
+    color: #f0f0f0 !important;
+}
+
+.dark-mode .w3-indigo {
+    background-color: #00bcd4 !important;
+    color: #000 !important;
+}
+
+.dark-mode .w3-text-indigo {
+    color: #00bcd4 !important;
+}
+
+.dark-mode .w3-text-grey {
+    color: #ffffff !important;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+    padding: 10px 16px;
+    background-color: #3a3a3a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.theme-toggle:hover {
+    background-color: #555;
+}
+
+.dark-mode .theme-toggle {
+    background-color: #ffffff;
+    color: black;
+}

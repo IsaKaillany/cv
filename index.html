@@ -10,23 +10,12 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <style>
-        html,
-        body,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-family: "Roboto", sans-serif
-        }
-    </style>
-
+    <link rel="stylesheet" href="./assets/css/global.css">
 </head>
 
+
 <body class="w3-light-grey" cz-shortcut-listen="true">
+    <button class="theme-toggle" onclick="toggleTheme()">Alternar Tema</button>
 
     <!-- Page Container -->
     <div class="w3-content w3-margin-top" style="max-width:1400px;">
@@ -42,17 +31,17 @@
                         <h2>Isa Kaillany Soares Pereira</h2>
                     </div>
                     <div class="w3-container">
-                        <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Estudante
+                        <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-indigo"></i>Estudante
                             Universitário de Sistemas de Informação</p>
-                        <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Caicó - RN</p>
+                        <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-indigo"></i>Caicó - RN</p>
                         <p><i
-                                class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>isa.dev.2003@gmail.com
+                                class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-indigo"></i>isa.dev.2003@gmail.com
                         </p>
-                        <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>(84) 99673-3445</p>
+                        <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-indigo"></i>(84) 99673-3445</p>
                         <hr>
 
                         <p class="w3-large">
-                            <b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b>
+                            <b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Skills</b>
                         </p>
                         <div style="display: flex; align-items: center;">
                             <img alt="js" height="30" width="45"
@@ -117,15 +106,15 @@
                         <hr>
 
                         <p class="w3-large w3-text-theme">
-                            <b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Idiomas</b>
+                            <b><i class="fa fa-globe fa-fw w3-margin-right w3-text-indigo"></i>Idiomas</b>
                         </p>
                         <p>Português (Nativo)</p>
                         <div class="w3-light-grey w3-round-xlarge">
-                            <div class="w3-round-xlarge w3-teal" style="height:20px;width:100%"></div>
+                            <div class="w3-round-xlarge w3-indigo" style="height:20px;width:100%"></div>
                         </div>
                         <p>Inglês (Intermediário)</p>
                         <div class="w3-light-grey w3-round-xlarge">
-                            <div class="w3-round-xlarge w3-teal" style="height:20px;width:70%"></div>
+                            <div class="w3-round-xlarge w3-indigo" style="height:20px;width:70%"></div>
                         </div>
                         <br>
                     </div>
@@ -139,7 +128,7 @@
 
                 <div class="w3-container w3-card w3-white w3-margin-bottom">
                     <h2 class="w3-text-grey w3-padding-16"><i
-                            class="fa fa-terminal fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Sobre</h2>
+                            class="fa fa-terminal fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Sobre</h2>
                     <p style="text-align: justify;">Sou estudante de Bacharelado em Sistemas de Informação na UFRN e
                         atuo com desenvolvimento de
                         software e pesquisa no LABICAN, com foco em design de interfaces, desenvolvimento front-end,
@@ -155,14 +144,14 @@
 
                 <div class="w3-container w3-card w3-white w3-margin-bottom">
                     <h2 class="w3-text-grey w3-padding-16">
-                        <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Experiências
+                        <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Experiências
                     </h2>
                     <div class="w3-container">
                         <h5 class="w3-opacity"><b>Laboratório de Inteligência Computacional Aplicada aos Negócios
                                 (LABICAN)</b></h5>
                         <h4>Desenvolvedora mobile</h4>
-                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Junho de 2024 -
-                            <span class="w3-tag w3-teal w3-round">Atualmente</span>
+                        <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Junho de 2024 -
+                            <span class="w3-tag w3-indigo w3-round">Atualmente</span>
                         </h6>
                         <ul style="text-align: justify;">
                             <li>Criação e desenvolvimento de um aplicativo mobile, utilizando React Native, Expo e
@@ -180,8 +169,8 @@
                         </ul>
 
                         <h4>Pesquisadora</h4>
-                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Março de 2023 -
-                            <span class="w3-tag w3-teal w3-round">Atualmente</span>
+                        <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Março de 2023 -
+                            <span class="w3-tag w3-indigo w3-round">Atualmente</span>
                         </h6>
                         <ul style="text-align: justify;">
                             <li>Atuo desenvolvendo pesquisas nas áreas de mineração de dados e aprendizado de máquina;
@@ -200,7 +189,7 @@
                     <div class="w3-container">
                         <h5 class="w3-opacity"><b>Byte Seridó Jr</b></h5>
                         <h4>Designer Gráfico</h4>
-                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Março de 2022 -
+                        <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Março de 2022 -
                             Dezembro de 2022
                         </h6>
                         <ul style="text-align: justify;">
@@ -213,12 +202,12 @@
 
                 <div class="w3-container w3-card w3-white w3-margin-bottom">
                     <h2 class="w3-text-grey w3-padding-16">
-                        <i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Educação
+                        <i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Educação
                     </h2>
                     <div class="w3-container">
                         <h5 class="w3-opacity"><b>Universidade Federal do Rio Grande do Norte (UFRN)</b></h5>
-                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2022 - <span
-                                class="w3-tag w3-teal w3-round">Atualmente</span></h6>
+                        <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2022 - <span
+                                class="w3-tag w3-indigo w3-round">Atualmente</span></h6>
                         <p>
                             Bacharelado em Sistemas de Informação
                         </p>
@@ -228,10 +217,10 @@
 
                 <div class="w3-container w3-card w3-white w3-margin-bottom">
                     <h2 class="w3-text-grey w3-padding-16">
-                        <i class="fa fa-git fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projetos
+                        <i class="fa fa-git fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Projetos
                     </h2>
                     <div class="w3-container">
-                        <h6 class="w3-text-teal">
+                        <h6 class="w3-text-indigo">
                             <i class="fa fa-github fa-fw w3-margin-right"></i>
                             <a href="https://github.com/IsaKaillany/physical-education-lp" target="_blank">Landing Page
                                 sobre a importância dos exercícios físicos na saúde dos idosos</a>
@@ -246,7 +235,7 @@
                         <hr>
                     </div>
                     <div class="w3-container">
-                        <h6 class="w3-text-teal">
+                        <h6 class="w3-text-indigo">
                             <i class="fa fa-github fa-fw w3-margin-right"></i>
                             <a href="https://github.com/IsaKaillany/Steam-Clone" target="_blank">Clone da Steam</a>
                         </h6>
@@ -270,7 +259,7 @@
         <!-- End Page Container -->
     </div>
 
-    <footer class="w3-container w3-teal w3-center w3-margin-top">
+    <footer class="w3-container w3-indigo w3-center w3-margin-top">
         <p>Minhas Redes Sociais</p>
         <a href="https://github.com/IsaKaillany" target="_blank"><i
                 class="fa fa-github w3-hover-opacity w3-xlarge"></i></a>
@@ -279,6 +268,8 @@
         <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
     </footer>
 
+    <script src="./assets/js/main.js"></script>
 </body>
+
 
 </html>
